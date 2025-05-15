@@ -1,0 +1,135 @@
+:root {
+  --primary-500: #ff6b81; 
+  --primary-600: #e76f85a4; 
+  --primary-700: #dd7486;
+}
+
+/* Background Image */
+.gradio-container {
+  background: url('https://imagizer.imageshack.com/img922/4421/kzgwNr.jpg') no-repeat center center fixed !important;
+  background-size: cover !important;
+}
+
+/* Title Styling */
+.custom-title {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 48px;
+  color: #ffffff;
+  text-shadow: 
+    0 0 5px #ff7eb3,
+    0 0 10px #ff758c;
+  font-weight: bold;
+}
+
+/* Subtitle Styling */
+.subtitle {
+  color: #444; 
+  font-size: 20px;
+}
+
+/* General Button Styling */
+button {
+  background: linear-gradient(135deg, #ffb3c1, #ff6b81) !important;
+  color: white !important;
+  border: none !important;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #ff6b81, #ff4d6d) !important;
+  transform: scale(1.03);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Input areas and dropdowns */
+textarea, input, select {
+  background: rgba(255, 255, 255, 0.6) !important;
+  color: #333 !important;
+  border: 2px solid #ffb3c1 !important;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+/* Labels for fields */
+.label, .sublabel, .gr-textbox label, .gr-dropdown label {
+  color: #ff6b81 !important;
+  font-weight: bold;
+}
+
+/* Upload + Card Download Box */
+.gr-upload, .gr-image, .upload-box, .upload-button, .gr-file {
+  background: rgba(255, 182, 193, 0.5) !important; /* Light transparent pink */
+  border: 2px solid #ffb3c1 !important;
+  border-radius: 15px;
+  backdrop-filter: blur(8px);
+}
+
+/* Markdown, Text Areas, Group Boxes */
+.gr-box, .gr-textbox, .gr-dropdown, .gr-image, .gr-button, .gr-upload, .gr-markdown {
+  background: rgba(255, 255, 255, 0.15) !important;
+  backdrop-filter: blur(10px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  border-radius: 15px !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+  color: #fff;
+}
+
+/* Background for general container */
+.container, .gradio-container {
+  background-color: rgba(255, 245, 247, 0.5) !important;
+}
+
+/* Adjust upload text inside upload box */
+.gr-upload > div {
+  color: #333 !important;
+  font-weight: 600;
+}
+
+/* Special Copy/Generate Buttons */
+.copy-button, .generate-button {
+  background: linear-gradient(135deg, #ffb3c1, #f5778a) !important;
+  font-weight: bold;
+  color: white !important;
+  border-radius: 12px;
+}
+
+/* Fix Upload Drop Text */
+.gr-upload label {
+  color: #333 !important;
+  font-weight: bold;
+}
+
+input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  background-color: white;
+  border: 2px solid #ff6b81;
+  border-radius: 4px;
+  position: relative;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 6px;
+  width: 4px;
+  height: 10px;
+  border: solid #ff6b81;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+
+
+
+
+
+
+
+
